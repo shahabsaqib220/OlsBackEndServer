@@ -53,7 +53,7 @@ app.get('/', (req, res) => {
 
 const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb+srv://shahabsaqib220:Pakistan1122@cluster0.ugd18.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
+        await mongoose.connect("mongodb+srv://shahabsaqib220:Pakistan1122@cluster0.2nxi7.mongodb.net/",{
            
         })
         console.log("MongoDb Connected");
